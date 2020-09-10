@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="nav__wrap">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl navbar-dark">
+          <a class="navbar-brand" href="#">
+            <picture>
+              <source srcset="images/header-lg-logo.svg" media="(min-width: 1200px)">
+              <source srcset="images/header-tablet-logo.svg" media="(min-width: 660px)">
+
+              <img src="images/header_logo.svg" alt="header_logo">
+
+            </picture>
+          </a>
+          <button class="navbar-toggler header__btn" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="btn__line"></span>
+          </button>
+          <div class="collapse navbar-collapse pt-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Фотографии</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Конкурс</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HTML Academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header__wrapper">
+      <picture class="header__img">
+
+        <source class="header__img-lg" srcset="images/header-lg-img2.png" media="(min-width: 1200px)">
+        <source class="header__img-tablet" srcset="images/header-img-tabl.png" media="(min-width: 660px)">
+        <img class="" src="images/header-img-mob.png" alt="phone">
+      </picture>
+      <div class="download">
+        <h1 class="header__title">Взгляните
+          на жизнь
+          иначе!</h1>
+        <button class="btn btn-outline-light download__btn" type="button">Скачать приложение</button>
+        <div class="platforms">
+          <div class="platforms__images">
+            <a href="#"><i class="platforms__image fab fa-apple"></i></a>
+            <a href="#"><i class="platforms__image fab fa-android"></i></a>
+            <a href="#"><img class="platforms__image" src="images/microsoft-logo.svg" alt="microsoft"></a>
+          </div>
+          <p class="platforms__desc">
+            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits__head">
+          <p class="benefits__head1">
+            Устали от серости мегаполиса?
+          </p>
+          <p class="benefits__head2">
+            Нам есть, что вам
+            предложить!
+          </p>
+        </div>
+      </div>
+      <div class="benefits__wrapper">
+        <div class="container">
+          <div class="benefits__desc">
+            <div class="benefits__blocks">
+              <div class="benefits__block benefits__block-1">
+                <h3 class="benefits__title">Поднимает настроение</h3>
+                <p class="benefits__text">
+                  Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              </div>
+              <div class="benefits__block benefits__block-2">
+                <h3 class="benefits__title">Меняет мир вокруг</h3>
+                <p class="benefits__text">
+                  Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+              </div>
+              <div class="benefits__block benefits__block-3">
+                <h3 class="benefits__title">Заводит новых друзей</h3>
+                <p class="benefits__text">
+                  Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              </div>
+            </div>
+            <div class="benefits__image">
+              <img class="benefits__image-1" src="images/benefits-image-1.png" alt="phone">
+              <img class="benefits__image-2" src="images/benefits-image-2.png" alt="phone">
+              <img class="benefits__image-3" src="images/benefits-image-3.png" alt="phone">
+              <picture>
+                <source class="benefits__image-tablet" srcset="images/benefits-image-tabl.png"
+                  media="(min-width: 660px)">
+                <img src="images/benefits-image-mob.png" alt="phone">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="effect">
+      <div class="container">
+        <picture class="effect__img">
+          <source srcset="images/timer-lg.png" media="(min-width: 1200px)">
+          <img src="images/timer-tabl.png" alt="timer">
+        </picture>
+        <div class="effect__desc">
+          <h2 class="effect__title">
+            Эффект
+            на 24 часа!
+          </h2>
+          <div class="effect__text">
+            Британские ученые провели исследования
+            и доказали, что положительный эффект
+            от использования приложения длится
+            целые сутки!
+          </div>
+          <a class="effect__link" href="#">Узнать больше об исследовании
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__quotes">
+          <img src="images/reviews-quotes.png" alt="quotes">
+        </div>
+        <div id="reviews__indicator" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#reviews__indicator" data-slide-to="0" class="active"></li>
+            <li data-target="#reviews__indicator" data-slide-to="1"></li>
+            <li data-target="#reviews__indicator" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="reviews__card">
+                  <div class="reviews__head">
+                    <h3 class="reviews__title">Николай Петров</h3>
+                    <p class="reviews__subtitle">25 лет, водитель трамвая</p>
+                  </div>
+                  <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+                    привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной
+                    фотографии!»</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="reviews__card">
+                  <div class="reviews__head">
+                    <h3 class="reviews__title">Николай</h3>
+                    <p class="reviews__subtitle">25 лет, водитель трамвая</p>
+                  </div>
+                  <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+                    привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной
+                    фотографии!»</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="reviews__card">
+                  <div class="reviews__head">
+                    <h3 class="reviews__title">Николай</h3>
+                    <p class="reviews__subtitle">25 лет, водитель трамвая</p>
+                  </div>
+                  <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+                    привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной
+                    фотографии!»</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#reviews__indicator" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <img src="images/reviews-slider-prev.svg" alt="prev arrow">
+          </a>
+          <a class="carousel-control-next" href="#reviews__indicator" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <img src="images/reviews-slider-next.svg" alt="prev arrow">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="price">
+      <div id="price__indicators" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#price__indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#price__indicators" data-slide-to="1"></li>
+          <li data-target="#price__indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="card card-base">
+                <div class="card-header">
+                  <p class="card__title">БАЗА</p>
+                  <p class="card__price">1,99 USD</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item list-group-item-1">Розовый фильтр</li>
+                  <li class="list-group-item list-group-item-2">Смайлики</li>
+                  <li class="list-group-item list-group-item-3">Комментарии</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card card-standart">
+                <div class="card-header card-header-hit">
+                  <p class="card__title">СТАНДАРТ</p>
+                  <p class="card__price">3,99 USD</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item list-group-item-1">Розовый фильтр</li>
+                  <li class="list-group-item list-group-item-2">Смайлики</li>
+                  <li class="list-group-item list-group-item-3">Комментарии</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card card-unlim">
+                <div class="card-header">
+                  <p class="card__title">АНЛИМ</p>
+                  <p class="card__price">9,99 USD</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item list-group-item-1">Розовый фильтр</li>
+                  <li class="list-group-item list-group-item-2">Смайлики</li>
+                  <li class="list-group-item list-group-item-3">Комментарии</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#price__indicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#price__indicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="price--tablet">
+        <div class="container">
+          <div class="price--tablet__cards">
+            <div class="card card__name">
+              <div class="card-header">
+                <p class="card__title"></p>
+                <p class="card__price"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-1">Розовый фильтр</li>
+                <li class="list-group-item list-group-item-2">Смайлики</li>
+                <li class="list-group-item list-group-item-3">Комментарии</li>
+              </ul>
+            </div>
+            <div class="card card-base">
+              <div class="card-header">
+                <p class="card__title">БАЗА</p>
+                <p class="card__price">1,99 USD</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-1"></li>
+                <li class="list-group-item list-group-item-2"></li>
+                <li class="list-group-item list-group-item-3"></li>
+              </ul>
+            </div>
+            <div class="card card-standart">
+              <div class="card-header card-header-hit">
+                <p class="card__title">СТАНДАРТ</p>
+                <p class="card__price">3,99 USD</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-1"></li>
+                <li class="list-group-item list-group-item-2"></li>
+                <li class="list-group-item list-group-item-3"></li>
+              </ul>
+            </div>
+            <div class="card card-unlim">
+              <div class="card-header">
+                <p class="card__title">АНЛИМ</p>
+                <p class="card__price">9,99 USD</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-1"></li>
+                <li class="list-group-item list-group-item-2"></li>
+                <li class="list-group-item list-group-item-3"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__wrapper row">
+          <div class="contacts__title col-12">
+            <p>
+              Остались вопросы?
+              Свяжитесь с нами!
+            </p>
+          </div>
+          <div class="contacts__phone col-12 col-md-6 col-xl-4">
+            Звоните:<br>
+            <a href="tel:78125556666">+7 (812) 555-66-66</a>
+          </div>
+          <div class="contacts__mail col-12 col-md-6 col-xl-4">
+            Пишите:<br>
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </div>
+          <div class="contacts__address col-12 col-xl-4">
+            Приезжайте в гости:
+            <p>ул. Большая
+              Конюшенная, 19/8
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__triangle">
+      </div>
+      <div class="contacts__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150.9209393190883!2d56.049417858383556!3d54.76516679507518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d939b58c585a39%3A0x2214ae98c9de0af6!2z0KXQvtC30Y_QudGB0YLQstC10L3QvdGL0LUg0YLQvtCy0LDRgNGL!5e0!3m2!1sru!2sru!4v1598611396620!5m2!1sru!2sru"
+          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="#">
+        <picture>
+          <source srcset="images/footer-logo-lg.png" media="(min-width: 1200px)">
+          <img class="footer__logo" src="images/footer-logo.png" alt="logo">
+        </picture>
+      </a>
+      <div class="footer__social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fas fa-play"></i></a>
+      </div>
+      <div class="footer__develope">
+        <span>Разработано</span>
+        <a href="#"><img src="images/footer-dev.png" alt="academy"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/18ad35b46c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
