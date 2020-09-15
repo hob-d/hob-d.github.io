@@ -1,4 +1,4 @@
 /unused images
-*.sass
+/scss
 *.map
 style.css
